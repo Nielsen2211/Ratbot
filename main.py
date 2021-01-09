@@ -2,7 +2,7 @@ from selenium import webdriver
 from Login.login import login
 from Login.register import register
 
-browser = webdriver.Chrome(executable_path="Main/chromedriver.exe")
+browser = webdriver.Chrome(executable_path="chromedriver.exe")
 browser.get('https://www.zravian.com/')
 
 
