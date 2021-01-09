@@ -1,0 +1,2 @@
+# Ratbot
+Travian-bot
