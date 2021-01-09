@@ -1,8 +1,7 @@
 from selenium import webdriver
-from register import register
-from login import login
+from Login.login import login
 
-browser = webdriver.Chrome(executable_path="./chromedriver.exe")
+browser = webdriver.Chrome(executable_path="Main/chromedriver.exe")
 
 browser.get('https://www.zravian.com/')
 
