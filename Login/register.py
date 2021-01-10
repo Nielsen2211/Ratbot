@@ -62,7 +62,7 @@ def submit(browser):
     continue_botton = browser.find_element_by_css_selector('.grp input[type="submit"]')
     continue_botton.click()
 
-def register(browser, usernameinput, passwordinput, emailinput, tribeinput, locationinput, refferinput = ''):
+def register(browser, usernameinput, passwordinput, emailinput, tribeinput, locationinput, refferinput=''):
     browser.get('https://s5.zravian.com/register.php')
     choose_Fields(browser, usernameinput, passwordinput, emailinput)
     choose_Location(browser, locationinput)

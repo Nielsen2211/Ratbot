@@ -13,7 +13,6 @@ location = '-+'
 referrer = ''
 
 
-
 register(browser, username, password, mail, tribe, location, referrer)
 
 login(browser, username, password)
